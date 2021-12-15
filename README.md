@@ -62,18 +62,18 @@
   
   - Mettre #[ApiResource] sur chaque entitées voulu !!!
 
-# Diagramme UML
 
-    ![Capture](https://user-images.githubusercontent.com/52652122/146132486-1caa2e84-9262-44a4-b5a9-3cde0ee20b7a.png)
-
-
-    
     ![image](https://user-images.githubusercontent.com/52652122/144434451-54226c61-4117-4531-b2f6-d2a99f87cd70.png)
     
 
   - php bin console make:migration
 
   - php bin/console doctrine:migrations:migrate
+
+
+# Diagramme UML
+
+    ![Capture](https://user-images.githubusercontent.com/52652122/146132486-1caa2e84-9262-44a4-b5a9-3cde0ee20b7a.png)
 
 
 
