@@ -57,6 +57,9 @@
   - composer require profiler
   
   - php bin/console doctrine:database:create
+
+    ![Capture](https://user-images.githubusercontent.com/52652122/146132486-1caa2e84-9262-44a4-b5a9-3cde0ee20b7a.png)
+
   
   - php bin/console make:entity name
   - Mettre #[ApiResource] sur chaque entitées voulu !!!
