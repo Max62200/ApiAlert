@@ -64,6 +64,11 @@ class ReportClient
      */
     private $service;
 
+    /**
+     * @ORM\OneToOne(targetEntity=MediaObject::class, inversedBy="reportClient", cascade={"persist", "remove"})
+     */
+    private $fileReport;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -173,6 +178,18 @@ class ReportClient
     public function setService(?Categories $service): self
     {
         $this->service = $service;
+
+        return $this;
+    }
+
+    public function getFileReport(): ?MediaObject
+    {
+        return $this->fileReport;
+    }
+
+    public function setFileReport(?MediaObject $fileReport): self
+    {
+        $this->fileReport = $fileReport;
 
         return $this;
     }
